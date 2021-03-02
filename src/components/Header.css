@@ -1,0 +1,29 @@
+.header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  height: 50px;
+}
+
+.header ul {
+  list-style-type: none;
+  padding-left: unset;
+  padding-top: 15px;
+}
+
+.header li {
+}
+
+.header a {
+  color: #3d3a32;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 600;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: #d49c21;
+  font-weight: 800;
+}

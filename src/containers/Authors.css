@@ -1,0 +1,18 @@
+.authors-with-bg {
+  background: #edddd4;
+  border-radius: 5px;
+  padding: 3rem 2rem;
+  margin: 1rem 0;
+}
+
+.authors-home {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .authors-home {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
